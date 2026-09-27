@@ -1,0 +1,3 @@
+paho-mqtt>=2.0.0
+matplotlib>=3.7
+PyQt6>=6.6  # backend grafico para plt.show() (sem depender do pacote 'tk' do sistema)
