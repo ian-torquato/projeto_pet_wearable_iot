@@ -24,7 +24,8 @@ Um wearable de monitoramento de atividade física que:
 - Exibe tudo em um **dashboard ao vivo** (Python + matplotlib), com KPIs,
   gráficos de aceleração e uma linha do tempo do estado da pessoa
 
-**Simulação (Wokwi):** [cole aqui o link do projeto Wokwi]
+**Simulação (Wokwi):** [ https://wokwi.com/projects/476137312195304449
+]
 
 ### Arquitetura
 
@@ -57,16 +58,14 @@ python dashboard_mqtt.py --demo
 
 ## O processo de desenvolvimento
 
-*(preencher: linha do tempo semana 1 / semana 2, decisões técnicas —
-por que MQTT, por que threshold em vez de ML, por que XIAO ESP32-S3,
-por que pulso ou peitoral, etc.)*
+Iniciamos o processo de desenvolvimento discutindo sobre como poderíamos desenvolver o produto que desejávamos, então pesquisamos bastente sobre sensores e microcontroladores e escolhemos os dois listados. 
+A partir disso, estudamos sobre como nos dividir, então eu (Ian) foquei em ajustar o circuito e firmware e o Leo focou em fazer um dashboard funcioal e realizar a integração das partes.
 
 ## Aprendizados e desafios
 
-*(preencher: dificuldades reais enfrentadas — ex: conflito de bibliotecas
-MPU6050, calibração do threshold de passo, decisão de posicionamento do
-sensor no corpo — e como a equipe resolveu cada uma)*
+Com tal projeto, foi possível desenvolver e aprofundar os conhecimentos em IoT. Houve uma certa dificuldade para fazer a integração entre o dashboard e o microcontrolador, mas conseguimos nos adaptar para resolver tais entraves.
 
 ## Equipe
 
-*(nomes dos 3 integrantes)*
+Ian Torquato
+Leonardo Monteiro
